@@ -1,0 +1,21 @@
+{
+  "name": "expotasks",
+  "version": "1.0.0",
+  "description": "expo",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomankoVladyslav/expoTasks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomankoVladyslav/expoTasks/issues"
+  },
+  "homepage": "https://github.com/RomankoVladyslav/expoTasks#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.25.2"
+  }
+}
