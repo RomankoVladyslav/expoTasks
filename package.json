@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "expo",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:ui": "npx playwright test orderMedicaments.spec.js",
+    "test:api": "npx playwright test apiTests.spec.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RomankoVladyslav/expoTasks.git"
@@ -17,5 +20,8 @@
   "homepage": "https://github.com/RomankoVladyslav/expoTasks#readme",
   "devDependencies": {
     "@playwright/test": "^1.25.2"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
   }
 }
