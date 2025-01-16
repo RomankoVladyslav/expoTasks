@@ -9,13 +9,15 @@ jobs:
       - run:
           name: Install dependencies
           command: npm install
-      - runE2e:
+      - runFirst:
           name: Run tests
           command: npm test:api
-          command: test:ui
       - runJest:
           name: Run tests
           command: npm test
+      - runSecond:
+          name: Run tests
+          command: npm test:ui
           
 
 workflows:
