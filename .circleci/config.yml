@@ -12,6 +12,7 @@ jobs:
       - runE2e:
           name: Run tests
           command: npm test:api
+          command: test:ui
       - runJest:
           name: Run tests
           command: npm test
