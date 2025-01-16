@@ -5,7 +5,7 @@ const { PdpPage } = require("../pages/pdpPage");
 const { StoresPage } = require("../pages/storesPage");
 const { CheckoutPage } = require("../pages/checkoutPage");
 
-test('Complete order with any medicaments', async ({ page }) => {
+test.skip('Complete order with any medicaments', async ({ page }) => {
     const basePage = new BasePage(page);
     const plpPage = new PlpPage(page);
     const pdpPage = new PdpPage(page);

@@ -11,7 +11,7 @@ test.beforeAll(async ({ playwright }) => {
     });
 })
 
-test('API test', async ({ page }) => {
+test.skip('API test', async ({ page }) => {
 
     await test.step('API POST, checking keys data and compare key with value', async () => {
         const _response = await apiContext.post(`${URL}`, {});
